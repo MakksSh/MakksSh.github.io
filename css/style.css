@@ -1,0 +1,14 @@
+body {
+    word-wrap: break-word;
+}
+
+.guides-section .btn.active {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+    border-color: var(--bs-primary);
+}
+
+.table {
+    border-radius: 0.375rem;
+    overflow: hidden;
+}
