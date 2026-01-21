@@ -149,13 +149,15 @@ document.addEventListener('DOMContentLoaded', () => {
             tr.appendChild(tdAuthor);
             
             const tdLink = document.createElement('td');
-            const link = document.createElement('a');
-            link.href = guide.link;
-            link.textContent = 'Перейти';
-            link.classList.add('btn', 'btn-primary', 'btn-sm');
-            link.target = "_blank";
-            link.rel = "noopener noreferrer";
-            tdLink.appendChild(link);
+            if (guide.link) {
+                const link = document.createElement('a');
+                link.href = guide.link;
+                link.textContent = 'Перейти';
+                link.classList.add('btn', 'btn-primary', 'btn-sm');
+                link.target = "_blank";
+                link.rel = "noopener noreferrer";
+                tdLink.appendChild(link);
+            }
             tr.appendChild(tdLink);
 
             tableBody.appendChild(tr);
