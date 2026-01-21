@@ -12,3 +12,69 @@ body {
     border-radius: 0.375rem;
     overflow: hidden;
 }
+
+@media (max-width: 767.98px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    footer .d-flex {
+        flex-direction: column;
+        gap: 0.5rem !important; /* Override inline style */
+    }
+
+    footer .btn {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0.75rem;
+    }
+
+    .card-text, .lead {
+        font-size: 1.1rem;
+    }
+
+    /* Responsive Table Styles */
+    .table-responsive {
+        border: none; /* Remove border from the responsive container */
+    }
+
+    .table thead {
+        display: none; /* Hide table headers on mobile */
+    }
+
+    .table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid var(--bs-border-color);
+        border-radius: 0.375rem;
+    }
+
+    .table td {
+        display: block;
+        text-align: right;
+        padding-left: 50%; /* Make space for the label */
+        position: relative;
+        border: none;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 0.75rem;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .table td:last-child {
+        border-bottom: none;
+    }
+}

@@ -127,15 +127,19 @@ document.addEventListener('DOMContentLoaded', () => {
         
         guides.forEach(guide => {
             const tr = document.createElement('tr');
+            
             const tdName = document.createElement('td');
             tdName.innerHTML = guide.name;
+            tdName.dataset.label = 'Название';
             tr.appendChild(tdName);
 
             const tdDesc = document.createElement('td');
             tdDesc.innerHTML = guide.description;
+            tdDesc.dataset.label = 'Описание';
             tr.appendChild(tdDesc);
 
             const tdAuthor = document.createElement('td');
+            tdAuthor.dataset.label = 'Автор';
             if (guide.author.url) {
                 const authorLink = document.createElement('a');
                 authorLink.href = guide.author.url;
@@ -149,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tr.appendChild(tdAuthor);
             
             const tdLink = document.createElement('td');
+            tdLink.dataset.label = 'Ссылка';
             if (guide.link) {
                 const link = document.createElement('a');
                 link.href = guide.link;
