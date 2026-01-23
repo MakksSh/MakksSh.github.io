@@ -2,6 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const guidesData = {
         "Видео гайды": [
             {
+                name: "<i class=\"bi bi-plus-circle-dotted\"></i> Большой гайд по векторизации",
+                description: "Что такое векторизация? Как подключить векторизацию для лорбуков в таверну? Какие модели использовать? Как запустить модель на ПК и подключиться к ней с телефона? Это и многое другое в данном гайде",
+                author: { name: "MaksSh", url: "https://t.me/Maks_Sh" },
+                link: "https://t.me/btwiusesillytavern/9"
+            },
+            {
                 name: "<i class=\"bi bi-fire\"></i> Установка и настройка таверны",
                 description: "Основа основ. Самый главный гайд для новичка! Устанавливаем таверну, выполняем базовые настройки, подключаем провайдера и начинаем чатится",
                 author: { name: "Фрэнки", url: "https://t.me/AIandDrama" },
