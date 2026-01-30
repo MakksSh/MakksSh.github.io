@@ -13,6 +13,17 @@ body {
     overflow: hidden;
 }
 
+/* Separator Styles */
+.guide-separator td {
+    text-align: center;
+    font-weight: 600;
+    color: var(--bs-info-text-emphasis);
+    background-color: rgba(var(--bs-info-rgb), 0.1);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 767.98px) {
     .container {
         padding-left: 1rem;
@@ -76,5 +87,23 @@ body {
 
     .table td:last-child {
         border-bottom: none;
+    }
+
+    /* Mobile overrides for separator */
+    .table tr.guide-separator {
+        border: none; /* Optional: remove border for separator if desired, or keep it */
+        margin-bottom: 0.5rem; /* Reduce margin for separators */
+        background-color: transparent; 
+    }
+
+    .table tr.guide-separator td {
+        text-align: center;
+        padding-left: 0.75rem; /* Reset padding */
+        width: 100%;
+        display: block;
+    }
+
+    .table tr.guide-separator td::before {
+        content: none !important; /* Hide the label */
     }
 }

@@ -39,6 +39,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         guides.forEach(guide => {
+            if (guide.type === 'separator') {
+                const tr = document.createElement('tr');
+                tr.classList.add('guide-separator');
+                
+                const td = document.createElement('td');
+                td.colSpan = 4;
+                td.textContent = guide.text || '';
+                
+                tr.appendChild(td);
+                tableBody.appendChild(tr);
+                return;
+            }
+
             const tr = document.createElement('tr');
             
             const tdName = document.createElement('td');
