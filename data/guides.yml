@@ -78,6 +78,12 @@
 
 - category: "Гайды для Android (Termux)"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i><i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Android (Termux)"
+      description: "Если терминал для тебя сложно, а поставить cli для юзания Gemini бесплатно хочется, то ты по адресу. Установщик geminicli2api в одну команду. Подробности и инструкция по ссыылке 👉"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/Maks_Sh"
+      link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
     - name: "Как найти папку таверны на Android"
       description: "Небольшой, но полезный текстовый гайд. Разбираемся, как найти все ваши файлы таверны (и не только) на андроиде"
       author:
