@@ -55,27 +55,29 @@ document.addEventListener('DOMContentLoaded', () => {
             const tr = document.createElement('tr');
             
             const tdName = document.createElement('td');
-            tdName.innerHTML = guide.name;
+            tdName.innerHTML = guide.name || '—';
             tdName.dataset.label = 'Название';
             tr.appendChild(tdName);
 
             const tdDesc = document.createElement('td');
-            tdDesc.innerHTML = guide.description;
+            tdDesc.innerHTML = guide.description || '—';
             tdDesc.dataset.label = 'Описание';
             tr.appendChild(tdDesc);
 
             const tdAuthor = document.createElement('td');
             tdAuthor.dataset.label = 'Автор';
             const author = guide.author || {};
-            if (author.url) {
+            if (author.url && author.name) {
                 const authorLink = document.createElement('a');
                 authorLink.href = author.url;
                 authorLink.textContent = author.name;
                 authorLink.target = "_blank";
                 authorLink.rel = "noopener noreferrer";
                 tdAuthor.appendChild(authorLink);
-            } else {
+            } else if (author.name) {
                 tdAuthor.textContent = author.name;
+            } else {
+                tdAuthor.textContent = '—';
             }
             tr.appendChild(tdAuthor);
             
@@ -89,6 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";
                 tdLink.appendChild(link);
+            } else {
+                tdLink.textContent = '—';
             }
             tr.appendChild(tdLink);
 
