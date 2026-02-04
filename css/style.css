@@ -172,7 +172,11 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
     }
 
     .display-4 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    h5, .card-title {
+        font-size: 1.15rem;
     }
 
     footer .d-flex {
@@ -182,12 +186,12 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
 
     footer .btn {
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 0.75rem;
     }
 
     .card-text, .lead {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* Responsive Table Styles */
@@ -216,14 +220,15 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
 
     .table td {
         display: block;
-        width: 100%;
-        text-align: left; /* Change to left for better readability of long text */
+        width: 100% !important; /* Override fixed desktop width */
+        text-align: left !important;
         padding: 0.75rem 1rem;
         padding-top: 2rem; /* Make room for the label above */
         position: relative;
         border: none;
         border-bottom: 1px solid var(--bs-border-color);
         min-height: 4rem;
+        font-size: 0.95rem; /* ~15px */
     }
 
     .table td::before {
@@ -235,7 +240,7 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
         font-weight: bold;
         text-align: left;
         color: var(--bs-info);
-        font-size: 0.85rem;
+        font-size: 0.75rem;
         text-transform: uppercase;
         letter-spacing: 0.05em;
     }
