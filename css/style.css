@@ -294,10 +294,20 @@ footer .btn:hover {
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         min-height: 4rem;
         font-size: 0.95rem; /* ~15px */
+        border-radius: 0 !important; /* Reset desktop radius */
     }
 
-    .table td:first-child {
+    .table tr:not(.guide-separator) td:first-child {
         padding-right: 3.5rem; /* Space for the absolute action button */
+        border-top-left-radius: 16px !important;
+        border-top-right-radius: 16px !important;
+    }
+
+    /* The last visible cell in the block (before the absolute button) */
+    .table tr:not(.guide-separator) td:nth-last-child(2) {
+        border-bottom-left-radius: 16px !important;
+        border-bottom-right-radius: 16px !important;
+        border-bottom: none;
     }
 
     .table td::before {
