@@ -194,6 +194,15 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
         font-size: 1rem;
     }
 
+    #category-buttons {
+        gap: 0.5rem !important;
+    }
+
+    #category-buttons .btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
+
     /* Responsive Table Styles */
     .table-responsive {
         border: none; /* Remove border from the responsive container */
