@@ -228,6 +228,19 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
         overflow: hidden;
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         position: relative;
+        transition: transform 0.1s ease;
+    }
+
+    .table tr:active {
+        transform: scale(0.98);
+    }
+
+    .fade-in {
+        animation: fadeIn 0.25s ease both;
+    }
+
+    #category-buttons .btn:active {
+        transform: scale(0.95);
     }
 
     .table td {
