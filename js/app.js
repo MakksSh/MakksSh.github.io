@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (guide.link) {
                 const link = document.createElement('a');
                 link.href = guide.link;
-                link.textContent = 'Перейти';
-                link.classList.add('btn', 'btn-primary', 'btn-sm');
+                link.innerHTML = '<i class="bi bi-box-arrow-up-right"></i>';
+                link.classList.add('btn', 'btn-outline-primary', 'btn-sm', 'btn-action-icon');
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";
                 tdLink.appendChild(link);

@@ -59,6 +59,9 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
 .table thead th:last-child {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: right;
+    width: 100px;
+    padding-right: 1.5rem;
 }
 
 .table {
@@ -91,6 +94,9 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
 .table td:last-child {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align: right;
+    width: 100px;
+    padding-right: 1.5rem;
 }
 
 .table-hover tbody tr:hover td {
@@ -133,9 +139,24 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
     box-shadow: 0 0 20px rgba(13, 110, 253, 0.6);
 }
 
+.btn-action-icon {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btn-action-icon:hover {
+    transform: scale(1.1);
+}
+
 /* Separator Styles */
 .guide-separator td {
-    text-align: center;
+    text-align: center !important;
     font-weight: 600;
     color: var(--bs-info-text-emphasis);
     background-color: rgba(var(--bs-info-rgb), 0.1);
