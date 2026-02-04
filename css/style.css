@@ -1,5 +1,8 @@
 body {
     word-wrap: break-word;
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .guides-section .btn.active {
