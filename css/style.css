@@ -162,6 +162,32 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
     transform: scale(1.1);
 }
 
+/* Footer Neon Buttons */
+footer .btn {
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ccc;
+}
+
+footer .btn:hover {
+    transform: translateY(-3px);
+    color: #fff;
+}
+
+.btn-telegram:hover {
+    border-color: #24A1DE;
+    box-shadow: 0 0 15px rgba(36, 161, 222, 0.5);
+    background: rgba(36, 161, 222, 0.1);
+}
+
+.btn-github:hover {
+    border-color: #f0f6fc;
+    box-shadow: 0 0 15px rgba(240, 246, 252, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+}
+
 /* Separator Styles */
 .table tr.guide-separator {
     filter: none;
