@@ -38,10 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         
-        guides.forEach(guide => {
+        guides.forEach((guide, index) => {
             if (guide.type === 'separator') {
                 const tr = document.createElement('tr');
-                tr.classList.add('guide-separator');
+                tr.classList.add('guide-separator', 'fade-in');
+                tr.style.animationDelay = `${index * 0.05}s`;
                 
                 const td = document.createElement('td');
                 td.colSpan = 4;
@@ -53,6 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const tr = document.createElement('tr');
+            tr.classList.add('fade-in');
+            tr.style.animationDelay = `${index * 0.05}s`;
             
             const tdName = document.createElement('td');
             tdName.innerHTML = guide.name || '—';
