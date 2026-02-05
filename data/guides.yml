@@ -12,6 +12,18 @@
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://youtu.be/gtCB5UCroRo"
+    - name: "Лорбуки и векторизация"
+      description: "Короткий гайд от Фрэнки. Что такое лорбуки и с чем их едят? А также про векторизацию и полезные расширения"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://youtu.be/8CxBztwv7Ow"
+    - name: "Удаленное подключение к таверне"
+      description: "В гайде объясняется как сделать так, чтобы вы могли подключаться к своей таверне на ПК откуда угодно"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://youtu.be/CaENNAAW9mE"
     - name: "Разбираемся с пресетами, параметрами моделей, токенами, настройками"
       description: "Гайд вышел длинный (прастити), но ответит на МНОГО вопросов касательно пресетов и настроек моделей в таверне. Разбираем буквально ВСЁ, что находится в самой первой вкладке \"AI Response\""
       author:
@@ -27,18 +39,18 @@
 
 - category: "Текстовые гайды"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Синхронизируем профили таверны между устройствами"
-      description: "Хочешь синхронизировать профили таверны (чаты, карточки, настройки и т.д.) между разными устройствами? Тогда тебе в этот гайд 😉"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
-      link: "https://docs.google.com/document/d/1HuIMLniKrP_SILSjbfRg15vZXjcwghD1s24PUSa6DhU/edit?usp=sharing"
     - name: "<i class=\"bi bi-fire\"></i> Гайд на бесплатный Gemini"
       description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
       author:
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/129"
+    - name: "<i class=\"bi bi-fire\"></i> Гайд на бесплатный Gemini 3"
+      description: "Дополнение к гайду выше. Переходите и активируйте доступ к Gemini 3 полностью бесплатно! Работает даже на ру аккаунтах"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/151"
     - name: "Методичка новобранца в SillyTavern"
       description: "Коротко, в текстовом формате разбирается установка, настройка API, карточки персонажей и другие моменты"
       author:
@@ -57,6 +69,12 @@
         name: "Ульяна"
         url: "https://t.me/apresanteur"
       link: "https://telegra.ph/Sammari-nemnozhko-sovetov-11-13"
+    - name: "Синхронизируем профили таверны между устройствами"
+      description: "Хочешь синхронизировать профили таверны (чаты, карточки, настройки и т.д.) между разными устройствами? Тогда тебе в этот гайд 😉"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/Maks_Sh"
+      link: "https://docs.google.com/document/d/1HuIMLniKrP_SILSjbfRg15vZXjcwghD1s24PUSa6DhU/edit?usp=sharing"
     - name: "Как получить закрытую карточку с JanitorAI"
       description: "Гайд с реддита, на английском. Гайд под плашкой 18+, для просмотра нужен аккаунт на реддите"
       author:
@@ -90,6 +108,12 @@
         name: "MaksSh"
         url: "https://t.me/Maks_Sh"
       link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Векторизация на Android (Termux)"
+      description: "В гайде объясняется как запустить модель для векторизации прямо на вашем смартфоне"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/Maks_Sh"
+      link: "https://t.me/btwiusesillytavern/13"
     - name: "Как найти папку таверны на Android"
       description: "Небольшой, но полезный текстовый гайд. Разбираемся, как найти все ваши файлы таверны (и не только) на андроиде"
       author:
@@ -99,7 +123,7 @@
 
 - category: "Решение проблем"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Что делать если таверна занимает много места"
+    - name: "Что делать если таверна занимает много места"
       description: "Коротенький гайд как очистить место если таверна стала слишком \"БОЛЬШОЙ\""
       author:
         name: "MaksSh"
@@ -125,8 +149,8 @@
     - name: "iorveth's Bot Creation Guide"
       description: "Большой гайд на написание ботов от Iorveths - одного из самых популярных авторов"
       author:
-        name: "iorveth"
-        url: ""
+        name: "iorveths"
+        url: "https://janitorai.com/profiles/ae3b8516-54d5-4469-8557-6dcf808128d0_profile-of-iorveths"
       link: "https://rentry.co/iorveths-bot-creation-guide"
     - name: "m00nprincess Janitor Ai Guide and Tutorial Master-list: Eternal Edition"
       description: "Большой сборник гайдов. Гайды не только по ботодельству"
@@ -380,3 +404,9 @@
         name: "ИИ и Драма [18+]"
         url: "https://t.me/AIcozyChat"
       link: "https://t.me/AIcozyChat/34423"
+    - name: "Marinara's Spaghetti Recipe"
+      description: "Отличный пресет для различных РП. Гибко настраиватся тогглами. Хорошо показывает себя практически на любых моделях"
+      author:
+        name: "Marinara"
+        url: "https://spicymarinara.github.io/"
+      link: "https://github.com/SpicyMarinara/SillyTavern-Settings/tree/main/Marinara's%20Essentials/Preset"
