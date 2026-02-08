@@ -39,6 +39,24 @@
 
 - category: "Текстовые гайды"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i><i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Windows"
+      description: "Теперь и для Windows! Ставим cli для халявного гугла буквально в одну команду! Подробности и инструкция по ссыылке 👉"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/Maks_Sh"
+      link: "https://github.com/MakksSh/GeminiCLI2API-Windows-Autoinstall"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Как промтить, чтобы бот НЕ ЛОМАЛСЯ (так быстро)"
+      description: "Гайд посвящён техникам и методам промтинга. В нём рассматриваются способы, которые помогают нейросетям лучше «держать» характер персонажа, избегать повторов и потери контекста, а также даются рекомендации по выбору бэкенда, провайдера, модели нейросети, стилю написания карточки персонажа и использованию различных инструментов и настроек"
+      author:
+        name: "MicroCot"
+        url: "https://t.me/sillytavern1"
+      link: "https://rentry.org/promting"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Как экономить токены и на.. зачем это надо"
+      description: "Статья рассказывает о том, как экономить токены при работе с LLM, объясняет, почему длина запросов является проблемой, и даёт советы по оптимизации взаимодействия с моделями, включая использование суммаризации, кэширования и другие методы"
+      author:
+        name: "nimda trashcan"
+        url: "https://t.me/nimdatrashcan"
+      link: "https://rentry.org/saveyourproxy"
     - name: "<i class=\"bi bi-fire\"></i> Гайд на бесплатный Gemini"
       description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
       author:
@@ -140,6 +158,13 @@
   items:
     - type: "separator"
       text: "Создание ботов"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Why all your AI characters sound the same (and how to fix it)
+"
+      description: "О проблемах однообразия в речи персонажей, создаваемых с помощью ИИ. Методы придания им уникальности и выразительности через примеры диалогов, речевые особенности, запрет на использование общей лексики, различную реакцию на события, допущение ошибок и использование отдельного ИИ-агента для каждого персонажа."
+      author:
+        name: "Pastrugnozzo"
+        url: "https://www.reddit.com/user/Pastrugnozzo"
+      link: "https://www.reddit.com/r/SillyTavernAI/comments/1qvkkha/why_all_your_ai_characters_sound_the_same_and_how"
     - name: "JLLM Creator and User Guide"
       description: "В гайде даются рекомендации для пользователей и создателей ботов по эффективному взаимодействию с JLLM. Гайд охватывает такие темы, как распространённые ошибки, продвинутые подсказки, ответственность пользователей и создателей, особенности настройки и оптимизации ботов."
       author:
