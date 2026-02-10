@@ -45,6 +45,12 @@
         name: "MaksSh"
         url: "https://t.me/Maks_Sh"
       link: "https://github.com/MakksSh/GeminiCLI2API-Windows-Autoinstall"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Ультимативный гайд на лорбуки в SillyTavern"
+      description: "Какие бывают лорбуки, как и куда прикрепляются (к боту, персонажу, группе или глобально), как работают приоритеты и глобальные настройки активации. Работа с записями лорбука: создание и импорт, статусы записей, куда именно они вставляются в промт, а также настройки срабатывания — ключевые слова, регулярные выражения, фильтры, глубина сканирования, группировка, рекурсия и временные эффекты. Отдельно затрагиваются связанные инструменты: просмотр “сырого” промта, регексы, векторизация и многое другое."
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://docs.google.com/document/d/1oL7dSIMvAXj88s7GBd61hWonsQ1Ru3AH/edit?usp=drivesdk&ouid=106456156079500791139&rtpof=true&sd=true"
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Как промтить, чтобы бот НЕ ЛОМАЛСЯ (так быстро)"
       description: "Гайд посвящён техникам и методам промтинга. В нём рассматриваются способы, которые помогают нейросетям лучше «держать» характер персонажа, избегать повторов и потери контекста, а также даются рекомендации по выбору бэкенда, провайдера, модели нейросети, стилю написания карточки персонажа и использованию различных инструментов и настроек"
       author:
@@ -126,6 +132,12 @@
         name: "MaksSh"
         url: "https://t.me/Maks_Sh"
       link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Быстрая установка SillyTavern на Android"
+      description: "Самый короткий гайд по установке таверны на Android! Установка одной командой в Termux"
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://t.me/Trigger_Tourist/455"
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Векторизация на Android (Termux)"
       description: "В гайде объясняется как запустить модель для векторизации прямо на вашем смартфоне"
       author:
