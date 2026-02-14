@@ -1,11 +1,5 @@
 - category: "Видео гайды"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Большой гайд по векторизации"
-      description: "Что такое векторизация? Как подключить векторизацию для лорбуков в таверну? Какие модели использовать? Как запустить модель на ПК и подключиться к ней с телефона? Это и многое другое в данном гайде"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
-      link: "https://t.me/btwiusesillytavern/9"
     - name: "<i class=\"bi bi-fire\"></i> Установка и настройка таверны"
       description: "Основа основ. Самый главный гайд для новичка! Устанавливаем таверну, выполняем базовые настройки, подключаем провайдера и начинаем чатится"
       author:
@@ -36,15 +30,15 @@
         name: "MaksSh"
         url: "https://t.me/Maks_Sh"
       link: "https://t.me/btwiusesillytavern/5"
-
-- category: "Текстовые гайды"
-  items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i><i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Windows"
-      description: "Теперь и для Windows! Ставим cli для халявного гугла буквально в одну команду! Подробности и инструкция по ссыылке 👉"
+    - name: "Большой гайд по векторизации"
+      description: "Что такое векторизация? Как подключить векторизацию для лорбуков в таверну? Какие модели использовать? Как запустить модель на ПК и подключиться к ней с телефона? Это и многое другое в данном гайде"
       author:
         name: "MaksSh"
         url: "https://t.me/Maks_Sh"
-      link: "https://github.com/MakksSh/GeminiCLI2API-Windows-Autoinstall"
+      link: "https://t.me/btwiusesillytavern/9"
+
+- category: "Текстовые гайды"
+  items:
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Ультимативный гайд на лорбуки в SillyTavern"
       description: "Какие бывают лорбуки, как и куда прикрепляются (к боту, персонажу, группе или глобально), как работают приоритеты и глобальные настройки активации. Работа с записями лорбука: создание и импорт, статусы записей, куда именно они вставляются в промт, а также настройки срабатывания — ключевые слова, регулярные выражения, фильтры, глубина сканирования, группировка, рекурсия и временные эффекты. Отдельно затрагиваются связанные инструменты: просмотр “сырого” промта, регексы, векторизация и многое другое."
       author:
@@ -75,6 +69,12 @@
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/151"
+    - name: "<i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Windows"
+      description: "Теперь и для Windows! Ставим cli для халявного гугла буквально в одну команду! Подробности и инструкция по ссыылке 👉"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/Maks_Sh"
+      link: "https://github.com/MakksSh/GeminiCLI2API-Windows-Autoinstall"
     - name: "Методичка новобранца в SillyTavern"
       description: "Коротко, в текстовом формате разбирается установка, настройка API, карточки персонажей и другие моменты"
       author:
@@ -126,12 +126,6 @@
 
 - category: "Гайды для Android (Termux)"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i><i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Android (Termux)"
-      description: "Если терминал для тебя сложно, а поставить cli для юзания Gemini бесплатно хочется, то ты по адресу. Установщик geminicli2api в одну команду. Подробности и инструкция по ссыылке 👉"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
-      link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Быстрая установка SillyTavern на Android"
       description: "Самый короткий гайд по установке таверны на Android! Установка одной командой в Termux"
       author:
@@ -144,6 +138,12 @@
         name: "MaksSh"
         url: "https://t.me/Maks_Sh"
       link: "https://t.me/btwiusesillytavern/13"
+    - name: "<i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Android (Termux)"
+      description: "Если терминал для тебя сложно, а поставить cli для юзания Gemini бесплатно хочется, то ты по адресу. Установщик geminicli2api в одну команду. Подробности и инструкция по ссыылке 👉"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/Maks_Sh"
+      link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
     - name: "Как найти папку таверны на Android"
       description: "Небольшой, но полезный текстовый гайд. Разбираемся, как найти все ваши файлы таверны (и не только) на андроиде"
       author:
@@ -435,6 +435,24 @@
 
 - category: "Пресеты"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> RENRI PRESET"
+      description: "Это — небольшой (2к~ токенов) пресет, заточенный под Gemini (2.5/3 Pro) и Claude. Для фанового РП с нарратором. Суть: диалог Юзера и Ассистента (Ренри 💚). Ты просишь симуляцию -> Ренри соглашается -> Система дает правила -> Начинается МЯСО."
+      author:
+        name: "nimda trashcan"
+        url: "https://t.me/nimdatrashcan"
+      link: "https://renri-shitpost.neocities.org/preset-doc"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Яблочный пресет"
+      description: "Поддерживаемые модели: Claude Sonnet 3.7, 4, 4.5. Opus 4, 4.1, 4.5. Gemini 2.5/3.0 Pro/Flash. DeepSeek 3.1 Terminus, R1, Chimera R1T2. GPT 5.1. Ренетт ООС: Цифровой дух-помощник. Ладно без пафоса, просто OOC пищалка как во многих других пресетах"
+      author:
+        name: "Яблоко"
+        url: "https://t.me/YablochnyAI"
+      link: "https://kykaaj.github.io/yablochny/#download"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> fawnie v3"
+      description: "Пресет похудел, стал свежее и новее. Авторы те же, новая механика (пресет и гайд по нему в комментах поста в ТГ автора)"
+      author:
+        name: "Fawn"
+        url: "https://t.me/dearfawwn"
+      link: "https://t.me/dearfawwn/99"
     - name: "Сборник пресетов от сообщества \"ИИ и Драма [18+]\""
       description: "Большая коллекция пресетов. Самые разные, под разные модели и на любой вкус. <a href=\"https://t.me/HHS1e\" target=\"_blank\">HHS1e</a> и <a href=\"https://t.me/apresanteur\" target=\"_blank\">Ульяна</a> регулярно пополняют коллекцию"
       author:
