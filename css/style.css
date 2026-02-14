@@ -205,6 +205,66 @@ footer .btn:hover {
     border-radius: 10px !important;
 }
 
+.search-container .input-group {
+    max-width: 500px;
+    margin: 0 auto;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 50px;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.search-container .input-group:focus-within {
+    border-color: rgba(var(--bs-info-rgb), 0.5);
+    box-shadow: 0 0 20px rgba(var(--bs-info-rgb), 0.2);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.search-container .form-control {
+    border: none !important;
+    background: transparent !important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.search-container .form-control:focus {
+    box-shadow: none;
+}
+
+.search-container .input-group-text {
+    border: none !important;
+    padding-left: 1.25rem;
+    font-size: 0.9rem;
+}
+
+.search-container #clear-search {
+    border: none !important;
+    border-radius: 50px !important;
+    padding-right: 1.25rem;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    color: var(--bs-secondary);
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.search-container #clear-search:hover {
+    background: transparent;
+    color: var(--bs-light);
+}
+
+.search-container #clear-search.d-none {
+    display: none !important;
+}
+
+.search-highlight {
+    background-color: rgba(var(--bs-info-rgb), 0.3);
+    border-radius: 3px;
+    padding: 0 2px;
+}
+
 @media (max-width: 767.98px) {
     .container {
         padding-left: 1rem;

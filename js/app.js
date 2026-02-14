@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const categoryButtonsContainer = document.getElementById('category-buttons');
     const tableBody = document.getElementById('guides-table-body');
+    const searchInput = document.getElementById('search-input');
+    const clearSearchBtn = document.getElementById('clear-search');
     const slugToButtonMap = new Map();
     let guidesData = {};
     let categories = [];
+    let currentCategory = '';
 
     function slugify(text) {
         return text.toString().toLowerCase()
@@ -23,15 +26,20 @@ document.addEventListener('DOMContentLoaded', () => {
         tableBody.appendChild(tr);
     }
 
-    function renderTable(category) {
+    function highlightText(text, query) {
+        if (!query) return text;
+        const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        return text.replace(regex, '<span class="search-highlight">$1</span>');
+    }
+
+    function renderGuides(guides, query = '') {
         tableBody.innerHTML = '';
-        const guides = guidesData[category] || [];
 
         if (guides.length === 0) {
             const tr = document.createElement('tr');
             const td = document.createElement('td');
             td.colSpan = 4;
-            td.textContent = 'В этой категории пока нет гайдов.';
+            td.textContent = query ? 'По вашему запросу ничего не найдено.' : 'В этой категории пока нет гайдов.';
             td.classList.add('text-center');
             tr.appendChild(td);
             tableBody.appendChild(tr);
@@ -58,12 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
             tr.style.animationDelay = `${index * 0.05}s`;
             
             const tdName = document.createElement('td');
-            tdName.innerHTML = guide.name || '—';
+            tdName.innerHTML = highlightText(guide.name || '—', query);
             tdName.dataset.label = 'Название';
             tr.appendChild(tdName);
 
             const tdDesc = document.createElement('td');
-            tdDesc.innerHTML = guide.description || '—';
+            tdDesc.innerHTML = highlightText(guide.description || '—', query);
             tdDesc.dataset.label = 'Описание';
             tr.appendChild(tdDesc);
 
@@ -73,12 +81,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (author.url && author.name) {
                 const authorLink = document.createElement('a');
                 authorLink.href = author.url;
-                authorLink.textContent = author.name;
+                authorLink.innerHTML = highlightText(author.name, query);
                 authorLink.target = "_blank";
                 authorLink.rel = "noopener noreferrer";
                 tdAuthor.appendChild(authorLink);
             } else if (author.name) {
-                tdAuthor.textContent = author.name;
+                tdAuthor.innerHTML = highlightText(author.name, query);
             } else {
                 tdAuthor.textContent = '—';
             }
@@ -103,11 +111,56 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function renderTable(category) {
+        currentCategory = category;
+        const guides = guidesData[category] || [];
+        renderGuides(guides);
+    }
+
+    function handleSearch() {
+        const query = searchInput.value.trim().toLowerCase();
+        
+        if (!query) {
+            // Restore category view
+            categoryButtonsContainer.querySelectorAll('.btn').forEach(btn => btn.classList.remove('disabled'));
+            const activeBtn = categoryButtonsContainer.querySelector('.btn.active');
+            if (activeBtn) {
+                renderTable(activeBtn.dataset.category);
+            }
+            return;
+        }
+
+        // Disable category buttons during search to avoid confusion
+        categoryButtonsContainer.querySelectorAll('.btn').forEach(btn => btn.classList.add('disabled'));
+
+        const results = [];
+        categories.forEach(category => {
+            const items = guidesData[category] || [];
+            items.forEach(item => {
+                if (item.type === 'separator') return;
+                
+                const nameMatch = (item.name || '').toLowerCase().includes(query);
+                const descMatch = (item.description || '').toLowerCase().includes(query);
+                const authorMatch = (item.author?.name || '').toLowerCase().includes(query);
+
+                if (nameMatch || descMatch || authorMatch) {
+                    results.push(item);
+                }
+            });
+        });
+
+        renderGuides(results, query);
+    }
+
     function setActiveCategory(targetButton) {
         if (!targetButton) {
             targetButton = categoryButtonsContainer.querySelector('.btn');
         }
         if (!targetButton) return;
+
+        // Clear search when switching categories
+        searchInput.value = '';
+        categoryButtonsContainer.querySelectorAll('.btn').forEach(btn => btn.classList.remove('disabled'));
 
         const category = targetButton.dataset.category;
         
@@ -120,6 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function handleCategoryClick(e) {
         const clickedButton = e.currentTarget;
+        if (clickedButton.classList.contains('disabled')) return;
         window.location.hash = clickedButton.dataset.slug;
     }
     
@@ -148,6 +202,22 @@ document.addEventListener('DOMContentLoaded', () => {
             
             categoryButtonsContainer.appendChild(button);
             slugToButtonMap.set(slug, button);
+        });
+
+        searchInput.addEventListener('input', () => {
+            handleSearch();
+            if (searchInput.value.trim()) {
+                clearSearchBtn.classList.remove('d-none');
+            } else {
+                clearSearchBtn.classList.add('d-none');
+            }
+        });
+
+        clearSearchBtn.classList.add('d-none'); // Hide by default
+        clearSearchBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            clearSearchBtn.classList.add('d-none');
+            handleSearch();
         });
 
         window.addEventListener('hashchange', syncContentWithUrl);
