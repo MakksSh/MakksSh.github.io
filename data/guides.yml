@@ -22,41 +22,47 @@
       description: "Гайд вышел длинный (прастити), но ответит на МНОГО вопросов касательно пресетов и настроек моделей в таверне. Разбираем буквально ВСЁ, что находится в самой первой вкладке \"AI Response\""
       author:
         name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
+        url: "https://t.me/btwiusesillytavern"
       link: "https://t.me/btwiusesillytavern/4"
     - name: "Гайд по настройке форматирования и \"рассуждений\" в некоторых пресетах"
       description: "Нейронка отвечает вам что-то непонятное вначале каждого сообщения? Каждое ваше сообщение это страшное полотно непонятного текста? Разбираемся как правильно настроить такие пресеты"
       author:
         name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
+        url: "https://t.me/btwiusesillytavern"
       link: "https://t.me/btwiusesillytavern/5"
     - name: "Большой гайд по векторизации"
       description: "Что такое векторизация? Как подключить векторизацию для лорбуков в таверну? Какие модели использовать? Как запустить модель на ПК и подключиться к ней с телефона? Это и многое другое в данном гайде"
       author:
         name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
+        url: "https://t.me/btwiusesillytavern"
       link: "https://t.me/btwiusesillytavern/9"
 
 - category: "Текстовые гайды"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Ультимативный гайд на лорбуки в SillyTavern"
-      description: "Какие бывают лорбуки, как и куда прикрепляются (к боту, персонажу, группе или глобально), как работают приоритеты и глобальные настройки активации. Работа с записями лорбука: создание и импорт, статусы записей, куда именно они вставляются в промт, а также настройки срабатывания — ключевые слова, регулярные выражения, фильтры, глубина сканирования, группировка, рекурсия и временные эффекты. Отдельно затрагиваются связанные инструменты: просмотр “сырого” промта, регексы, векторизация и многое другое."
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные облачные модели от Ollama"
+      description: "Небольшой гайд по получению бесплатных моделей через Ollama. Выбор небольшой, но пощупать есть что"
       author:
-        name: "Тригерный турист"
-        url: "https://t.me/Trigger_Tourist"
-      link: "https://docs.google.com/document/d/1oL7dSIMvAXj88s7GBd61hWonsQ1Ru3AH/edit?usp=drivesdk&ouid=106456156079500791139&rtpof=true&sd=true"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Как промтить, чтобы бот НЕ ЛОМАЛСЯ (так быстро)"
-      description: "Гайд посвящён техникам и методам промтинга. В нём рассматриваются способы, которые помогают нейросетям лучше «держать» характер персонажа, избегать повторов и потери контекста, а также даются рекомендации по выбору бэкенда, провайдера, модели нейросети, стилю написания карточки персонажа и использованию различных инструментов и настроек"
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1pFtS21w4tAFK3hb32Hy01AlHNjJ7uM3Hkg7lzTlT0sI/edit?usp=sharing"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный DeepSeek V3.2 от Nvidia"
+      description: "Гайдик от сообщества Фрэнки. Для использования потребуется иностранный номер. В остальном всё просто и доступно"
       author:
-        name: "MicroCot"
-        url: "https://t.me/sillytavern1"
-      link: "https://rentry.org/promting"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Как экономить токены и на.. зачем это надо"
-      description: "Статья рассказывает о том, как экономить токены при работе с LLM, объясняет, почему длина запросов является проблемой, и даёт советы по оптимизации взаимодействия с моделями, включая использование суммаризации, кэширования и другие методы"
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/168"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели от китайцев"
+      description: "Гайдик от сообщества Фрэнки. Kimi, Qwen, DeepSeek и iFlow модельки. Для получения доступа нужен только гуглоакк"
       author:
-        name: "nimda trashcan"
-        url: "https://t.me/nimdatrashcan"
-      link: "https://rentry.org/saveyourproxy"
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/172"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Огромная статья про рассуждения моделей"
+      description: "Статья утверждает, что сильные reasoning-модели улучшают рассуждение не просто за счёт более длинной цепочки мыслей, а потому что внутри имитируют спор и координацию нескольких разных внутренних точек зрения — своего рода society of thought. Сложное чтиво на английском, но оно поможет вам понять как можно выжать максимум из рассуждений моделей"
+      author:
+        name: ""
+        url: ""
+      link: "https://arxiv.org/pdf/2601.10825"
     - name: "<i class=\"bi bi-fire\"></i> Гайд на бесплатный Gemini"
       description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
       author:
@@ -73,7 +79,7 @@
       description: "Теперь и для Windows! Ставим cli для халявного гугла буквально в одну команду! Подробности и инструкция по ссыылке 👉"
       author:
         name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
+        url: "https://t.me/btwiusesillytavern"
       link: "https://github.com/MakksSh/GeminiCLI2API-Windows-Autoinstall"
     - name: "Методичка новобранца в SillyTavern"
       description: "Коротко, в текстовом формате разбирается установка, настройка API, карточки персонажей и другие моменты"
@@ -97,8 +103,26 @@
       description: "Хочешь синхронизировать профили таверны (чаты, карточки, настройки и т.д.) между разными устройствами? Тогда тебе в этот гайд 😉"
       author:
         name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
+        url: "https://t.me/btwiusesillytavern"
       link: "https://docs.google.com/document/d/1HuIMLniKrP_SILSjbfRg15vZXjcwghD1s24PUSa6DhU/edit?usp=sharing"
+    - name: "Ультимативный гайд на лорбуки в SillyTavern"
+      description: "Какие бывают лорбуки, как и куда прикрепляются (к боту, персонажу, группе или глобально), как работают приоритеты и глобальные настройки активации. Работа с записями лорбука: создание и импорт, статусы записей, куда именно они вставляются в промт, а также настройки срабатывания — ключевые слова, регулярные выражения, фильтры, глубина сканирования, группировка, рекурсия и временные эффекты. Отдельно затрагиваются связанные инструменты: просмотр “сырого” промта, регексы, векторизация и многое другое."
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://docs.google.com/document/d/1oL7dSIMvAXj88s7GBd61hWonsQ1Ru3AH/edit?usp=drivesdk&ouid=106456156079500791139&rtpof=true&sd=true"
+    - name: "Как промтить, чтобы бот НЕ ЛОМАЛСЯ (так быстро)"
+      description: "Гайд посвящён техникам и методам промтинга. В нём рассматриваются способы, которые помогают нейросетям лучше «держать» характер персонажа, избегать повторов и потери контекста, а также даются рекомендации по выбору бэкенда, провайдера, модели нейросети, стилю написания карточки персонажа и использованию различных инструментов и настроек"
+      author:
+        name: "MicroCot"
+        url: "https://t.me/sillytavern1"
+      link: "https://rentry.org/promting"
+    - name: "Как экономить токены и на.. зачем это надо"
+      description: "Статья рассказывает о том, как экономить токены при работе с LLM, объясняет, почему длина запросов является проблемой, и даёт советы по оптимизации взаимодействия с моделями, включая использование суммаризации, кэширования и другие методы"
+      author:
+        name: "nimda trashcan"
+        url: "https://t.me/nimdatrashcan"
+      link: "https://rentry.org/saveyourproxy"
     - name: "Как получить закрытую карточку с JanitorAI"
       description: "Гайд с реддита, на английском. Гайд под плашкой 18+, для просмотра нужен аккаунт на реддите"
       author:
@@ -126,23 +150,11 @@
 
 - category: "Гайды для Android (Termux)"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Быстрая установка SillyTavern на Android"
-      description: "Самый короткий гайд по установке таверны на Android! Установка одной командой в Termux"
-      author:
-        name: "Тригерный турист"
-        url: "https://t.me/Trigger_Tourist"
-      link: "https://t.me/Trigger_Tourist/455"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Векторизация на Android (Termux)"
-      description: "В гайде объясняется как запустить модель для векторизации прямо на вашем смартфоне"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
-      link: "https://t.me/btwiusesillytavern/13"
     - name: "<i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Android (Termux)"
       description: "Если терминал для тебя сложно, а поставить cli для юзания Gemini бесплатно хочется, то ты по адресу. Установщик geminicli2api в одну команду. Подробности и инструкция по ссыылке 👉"
       author:
         name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
+        url: "https://t.me/btwiusesillytavern"
       link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
     - name: "Как найти папку таверны на Android"
       description: "Небольшой, но полезный текстовый гайд. Разбираемся, как найти все ваши файлы таверны (и не только) на андроиде"
@@ -150,6 +162,18 @@
         name: "Томирис"
         url: "https://t.me/tomchi_smm"
       link: "https://teletype.in/@tomchirik/juZxICE9Aoq"
+    - name: "Быстрая установка SillyTavern на Android"
+      description: "Самый короткий гайд по установке таверны на Android! Установка одной командой в Termux"
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://t.me/Trigger_Tourist/455"
+    - name: "Векторизация на Android (Termux)"
+      description: "В гайде объясняется как запустить модель для векторизации прямо на вашем смартфоне"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://t.me/btwiusesillytavern/13"
 
 - category: "Решение проблем"
   items:
@@ -157,7 +181,7 @@
       description: "Коротенький гайд как очистить место если таверна стала слишком \"БОЛЬШОЙ\""
       author:
         name: "MaksSh"
-        url: "https://t.me/Maks_Sh"
+        url: "https://t.me/btwiusesillytavern"
       link: "https://docs.google.com/document/d/1H13hNU6XGcwlAQWmSCqCBbrWCm1FZy0I1lhFDbTfwL4/edit?usp=sharing"
     - name: "JLLM TROUBLESHOOTING GUIDE"
       description: "Гайд посвящён решению проблем при взаимодействии с ботами. В нём рассматриваются распространённые неполадки, такие как бессмысленные ответы бота, повторение им одних и тех же фраз, забывание деталей, искажение личности персонажа пользователя и другие."
@@ -170,8 +194,7 @@
   items:
     - type: "separator"
       text: "Создание ботов"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Why all your AI characters sound the same (and how to fix it)
-"
+    - name: "Why all your AI characters sound the same (and how to fix it)"
       description: "О проблемах однообразия в речи персонажей, создаваемых с помощью ИИ. Методы придания им уникальности и выразительности через примеры диалогов, речевые особенности, запрет на использование общей лексики, различную реакцию на события, допущение ошибок и использование отдельного ИИ-агента для каждого персонажа."
       author:
         name: "Pastrugnozzo"
@@ -435,24 +458,6 @@
 
 - category: "Пресеты"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> RENRI PRESET"
-      description: "Это — небольшой (2к~ токенов) пресет, заточенный под Gemini (2.5/3 Pro) и Claude. Для фанового РП с нарратором. Суть: диалог Юзера и Ассистента (Ренри 💚). Ты просишь симуляцию -> Ренри соглашается -> Система дает правила -> Начинается МЯСО."
-      author:
-        name: "nimda trashcan"
-        url: "https://t.me/nimdatrashcan"
-      link: "https://renri-shitpost.neocities.org/preset-doc"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Яблочный пресет"
-      description: "Поддерживаемые модели: Claude Sonnet 3.7, 4, 4.5. Opus 4, 4.1, 4.5. Gemini 2.5/3.0 Pro/Flash. DeepSeek 3.1 Terminus, R1, Chimera R1T2. GPT 5.1. Ренетт ООС: Цифровой дух-помощник. Ладно без пафоса, просто OOC пищалка как во многих других пресетах"
-      author:
-        name: "Яблоко"
-        url: "https://t.me/YablochnyAI"
-      link: "https://kykaaj.github.io/yablochny/#download"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> fawnie v3"
-      description: "Пресет похудел, стал свежее и новее. Авторы те же, новая механика (пресет и гайд по нему в комментах поста в ТГ автора)"
-      author:
-        name: "Fawn"
-        url: "https://t.me/dearfawwn"
-      link: "https://t.me/dearfawwn/99"
     - name: "Сборник пресетов от сообщества \"ИИ и Драма [18+]\""
       description: "Большая коллекция пресетов. Самые разные, под разные модели и на любой вкус. <a href=\"https://t.me/HHS1e\" target=\"_blank\">HHS1e</a> и <a href=\"https://t.me/apresanteur\" target=\"_blank\">Ульяна</a> регулярно пополняют коллекцию"
       author:
@@ -465,3 +470,21 @@
         name: "Marinara"
         url: "https://spicymarinara.github.io/"
       link: "https://github.com/SpicyMarinara/SillyTavern-Settings/tree/main/Marinara's%20Essentials/Preset"
+    - name: "RENRI PRESET"
+      description: "Это — небольшой (2к~ токенов) пресет, заточенный под Gemini (2.5/3 Pro) и Claude. Для фанового РП с нарратором. Суть: диалог Юзера и Ассистента (Ренри 💚). Ты просишь симуляцию -> Ренри соглашается -> Система дает правила -> Начинается МЯСО."
+      author:
+        name: "nimda trashcan"
+        url: "https://t.me/nimdatrashcan"
+      link: "https://renri-shitpost.neocities.org/preset-doc"
+    - name: "Яблочный пресет"
+      description: "Поддерживаемые модели: Claude Sonnet 3.7, 4, 4.5. Opus 4, 4.1, 4.5. Gemini 2.5/3.0 Pro/Flash. DeepSeek 3.1 Terminus, R1, Chimera R1T2. GPT 5.1. Ренетт ООС: Цифровой дух-помощник. Ладно без пафоса, просто OOC пищалка как во многих других пресетах"
+      author:
+        name: "Яблоко"
+        url: "https://t.me/YablochnyAI"
+      link: "https://kykaaj.github.io/yablochny/#download"
+    - name: "fawnie v3"
+      description: "Пресет похудел, стал свежее и новее. Авторы те же, новая механика (пресет и гайд по нему в комментах поста в ТГ автора)"
+      author:
+        name: "Fawn"
+        url: "https://t.me/dearfawwn"
+      link: "https://t.me/dearfawwn/99"
