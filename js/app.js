@@ -113,7 +113,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderTable(category) {
         currentCategory = category;
-        const guides = guidesData[category] || [];
+        let guides;
+        
+        if (category === 'new') {
+            guides = [];
+            categories.forEach(cat => {
+                const items = guidesData[cat] || [];
+                items.forEach(item => {
+                    if (item.type !== 'separator' && (item.name || '').includes('bi-plus-circle-dotted')) {
+                        guides.push(item);
+                    }
+                });
+            });
+        } else {
+            guides = guidesData[category] || [];
+        }
+        
         renderGuides(guides);
     }
 
@@ -188,6 +203,17 @@ document.addEventListener('DOMContentLoaded', () => {
             renderError('Список категорий пуст.');
             return;
         }
+
+        const newButton = document.createElement('button');
+        newButton.className = 'btn btn-outline-warning';
+        newButton.innerHTML = '<i class="bi bi-plus-circle-dotted"></i> Новинки';
+        newButton.dataset.category = 'new';
+        newButton.dataset.slug = 'new';
+        
+        newButton.addEventListener('click', handleCategoryClick);
+        
+        categoryButtonsContainer.appendChild(newButton);
+        slugToButtonMap.set('new', newButton);
 
         categories.forEach(category => {
             const button = document.createElement('button');
