@@ -39,6 +39,12 @@
 
 - category: "Текстовые гайды"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели от Qwen"
+      description: "Гайд по установке Qwen2API для получения всех новейших моделей Qwen в таверне. Модельки вполнее неплохие и вкусные. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1u96ZfmlaD_9ZnmCSq5pCLFVp5qOf_JBXc3eMMGh9Yh0/edit?usp=sharing"
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные облачные модели от Ollama"
       description: "Небольшой гайд по получению бесплатных моделей через Ollama. Выбор небольшой, но пощупать есть что"
       author:
