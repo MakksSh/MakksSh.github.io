@@ -39,6 +39,12 @@
 
 - category: "Текстовые гайды"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Гайд на бесплатные картинки для вашей РП"
+      description: "Гайд от сообщества Фрэнки. С его помощью вы сможете разнообразить свою игру красивыми картиночками и вставками. Ссылка на актуальное дополнение к гайду, сам гайд в реплае данного поста"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/184?single"
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели от Qwen"
       description: "Гайд по установке Qwen2API для получения всех новейших моделей Qwen в таверне. Модельки вполнее неплохие и вкусные. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
       author:
@@ -63,12 +69,6 @@
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/172"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Огромная статья про рассуждения моделей"
-      description: "Статья утверждает, что сильные reasoning-модели улучшают рассуждение не просто за счёт более длинной цепочки мыслей, а потому что внутри имитируют спор и координацию нескольких разных внутренних точек зрения — своего рода society of thought. Сложное чтиво на английском, но оно поможет вам понять как можно выжать максимум из рассуждений моделей"
-      author:
-        name: ""
-        url: ""
-      link: "https://arxiv.org/pdf/2601.10825"
     - name: "<i class=\"bi bi-fire\"></i> Гайд на бесплатный Gemini"
       description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
       author:
@@ -153,6 +153,12 @@
         name: "m00nprincess"
         url: "https://www.reddit.com/user/FunFatale/"
       link: "https://www.reddit.com/r/JanitorAI_Official/comments/1fh37h8/guide_what_are_tokens_what_is_context_and_what/"
+    - name: "Огромная статья про рассуждения моделей"
+      description: "Статья утверждает, что сильные reasoning-модели улучшают рассуждение не просто за счёт более длинной цепочки мыслей, а потому что внутри имитируют спор и координацию нескольких разных внутренних точек зрения — своего рода society of thought. Сложное чтиво на английском, но оно поможет вам понять как можно выжать максимум из рассуждений моделей"
+      author:
+        name: "Arxiv org"
+        url: ""
+      link: "https://arxiv.org/pdf/2601.10825"
 
 - category: "Гайды для Android (Termux)"
   items:
@@ -183,6 +189,12 @@
 
 - category: "Решение проблем"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Ошибки Gemini CLI и способы их решения"
+      description: "Гайд по решению всевозможных проблем и ошибок при установке/использовании всеми любимого Gemini CLI"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/19ymxtKAokrLFy1sKEFFdbigXJdHliUyF3uNcCQCz--s/edit?usp=sharing"
     - name: "Что делать если таверна занимает много места"
       description: "Коротенький гайд как очистить место если таверна стала слишком \"БОЛЬШОЙ\""
       author:
