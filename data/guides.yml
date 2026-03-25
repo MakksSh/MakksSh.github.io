@@ -39,54 +39,36 @@
 
 - category: "Текстовые гайды"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Гайд на бесплатные картинки для вашей РП"
-      description: "Гайд от сообщества Фрэнки. С его помощью вы сможете разнообразить свою игру красивыми картиночками и вставками. Ссылка на актуальное дополнение к гайду, сам гайд в реплае данного поста"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели от DeepSeek с официального сайта"
+      description: "Гайд по установке deepseek2api для доступа к DeepSeek моделям. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
       author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/184?single"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели от Qwen"
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1HgoDeKBQlQkaUMSexghvg8J5UIqtzxy0Rn-6aIox2vI/edit?usp=sharing"
+    - name: "<i class=\"bi bi-fire\"></i> Бесплатные модели от Qwen"
       description: "Гайд по установке Qwen2API для получения всех новейших моделей Qwen в таверне. Модельки вполнее неплохие и вкусные. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
       link: "https://docs.google.com/document/d/1u96ZfmlaD_9ZnmCSq5pCLFVp5qOf_JBXc3eMMGh9Yh0/edit?usp=sharing"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные облачные модели от Ollama"
+    - name: "<i class=\"bi bi-fire\"></i> Бесплатные облачные модели от Ollama"
       description: "Небольшой гайд по получению бесплатных моделей через Ollama. Выбор небольшой, но пощупать есть что"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
       link: "https://docs.google.com/document/d/1pFtS21w4tAFK3hb32Hy01AlHNjJ7uM3Hkg7lzTlT0sI/edit?usp=sharing"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный DeepSeek V3.2 от Nvidia"
+    - name: "<i class=\"bi bi-fire\"></i> Бесплатный DeepSeek V3.2 от Nvidia"
       description: "Гайдик от сообщества Фрэнки. Для использования потребуется иностранный номер. В остальном всё просто и доступно"
       author:
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/168"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели от китайцев"
+    - name: "<i class=\"bi bi-fire\"></i> Бесплатные модели от китайцев"
       description: "Гайдик от сообщества Фрэнки. Kimi, Qwen, DeepSeek и iFlow модельки. Для получения доступа нужен только гуглоакк"
       author:
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/172"
-    - name: "<i class=\"bi bi-fire\"></i> Гайд на бесплатный Gemini"
-      description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/129"
-    - name: "<i class=\"bi bi-fire\"></i> Гайд на бесплатный Gemini 3"
-      description: "Дополнение к гайду выше. Переходите и активируйте доступ к Gemini 3 полностью бесплатно! Работает даже на ру аккаунтах"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/151"
-    - name: "<i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Windows"
-      description: "Теперь и для Windows! Ставим cli для халявного гугла буквально в одну команду! Подробности и инструкция по ссыылке 👉"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/btwiusesillytavern"
-      link: "https://github.com/MakksSh/GeminiCLI2API-Windows-Autoinstall"
     - name: "Методичка новобранца в SillyTavern"
       description: "Коротко, в текстовом формате разбирается установка, настройка API, карточки персонажей и другие моменты"
       author:
@@ -117,6 +99,12 @@
         name: "Тригерный турист"
         url: "https://t.me/Trigger_Tourist"
       link: "https://docs.google.com/document/d/1oL7dSIMvAXj88s7GBd61hWonsQ1Ru3AH/edit?usp=drivesdk&ouid=106456156079500791139&rtpof=true&sd=true"
+    - name: "Гайд на бесплатные картинки для вашей РП"
+      description: "Гайд от сообщества Фрэнки. С его помощью вы сможете разнообразить свою игру красивыми картиночками и вставками. Ссылка на актуальное дополнение к гайду, сам гайд в реплае данного поста"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/184?single"
     - name: "Как промтить, чтобы бот НЕ ЛОМАЛСЯ (так быстро)"
       description: "Гайд посвящён техникам и методам промтинга. В нём рассматриваются способы, которые помогают нейросетям лучше «держать» характер персонажа, избегать повторов и потери контекста, а также даются рекомендации по выбору бэкенда, провайдера, модели нейросети, стилю написания карточки персонажа и использованию различных инструментов и настроек"
       author:
@@ -159,15 +147,29 @@
         name: "Arxiv org"
         url: ""
       link: "https://arxiv.org/pdf/2601.10825"
-
-- category: "Гайды для Android (Termux)"
-  items:
-    - name: "<i class=\"bi bi-fire\"></i> Автоматическая установка geminicli2api на Android (Termux)"
-      description: "Если терминал для тебя сложно, а поставить cli для юзания Gemini бесплатно хочется, то ты по адресу. Установщик geminicli2api в одну команду. Подробности и инструкция по ссыылке 👉"
+    - type: "separator"
+      text: "!!!С 25-го марта 2026 года Pro модели больше недоступны без платной подписки Google!!!"
+    - name: "Гайд на бесплатный Gemini"
+      description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/129"
+    - name: "Гайд на бесплатный Gemini 3"
+      description: "Дополнение к гайду выше. Переходите и активируйте доступ к Gemini 3 полностью бесплатно! Работает даже на ру аккаунтах"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/151"
+    - name: "Автоматическая установка geminicli2api на Windows"
+      description: "Теперь и для Windows! Ставим cli для халявного гугла буквально в одну команду! Подробности и инструкция по ссыылке 👉"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
-      link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
+      link: "https://github.com/MakksSh/GeminiCLI2API-Windows-Autoinstall"
+
+- category: "Гайды для Android (Termux)"
+  items:
     - name: "Как найти папку таверны на Android"
       description: "Небольшой, но полезный текстовый гайд. Разбираемся, как найти все ваши файлы таверны (и не только) на андроиде"
       author:
@@ -186,10 +188,18 @@
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
       link: "https://t.me/btwiusesillytavern/13"
+    - type: "separator"
+      text: "!!!С 25-го марта 2026 года Pro модели больше недоступны без платной подписки Google!!!"
+    - name: "Автоматическая установка geminicli2api на Android (Termux)"
+      description: "Если терминал для тебя сложно, а поставить cli для юзания Gemini бесплатно хочется, то ты по адресу. Установщик geminicli2api в одну команду. Подробности и инструкция по ссыылке 👉"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://github.com/MakksSh/GeminiCLI2API-Termux-Autoinstall"
 
 - category: "Решение проблем"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Ошибки Gemini CLI и способы их решения"
+    - name: "Ошибки Gemini CLI и способы их решения"
       description: "Гайд по решению всевозможных проблем и ошибок при установке/использовании всеми любимого Gemini CLI"
       author:
         name: "MaksSh"
@@ -476,6 +486,24 @@
 
 - category: "Пресеты"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Shino Gemini 3.0"
+      description: "Пресет от Шино для Gemini 3.0"
+      author:
+        name: "Шиночка"
+        url: "https://t.me/ah_ah_shino4ka"
+      link: "https://t.me/ah_ah_shino4ka/469"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Shino Gemini 3.1"
+      description: "Обновленный пресет от Шино специально для Gemini 3.1"
+      author:
+        name: "Шиночка"
+        url: "https://t.me/ah_ah_shino4ka"
+      link: "https://t.me/ah_ah_shino4ka/755"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> СТЕПА"
+      description: "Пресет для Qwen"
+      author:
+        name: "Чай"
+        url: "https://t.me/Maxsaf1"
+      link: "https://t.me/btwiusesillytavern/75"
     - name: "Сборник пресетов от сообщества \"ИИ и Драма [18+]\""
       description: "Большая коллекция пресетов. Самые разные, под разные модели и на любой вкус. <a href=\"https://t.me/HHS1e\" target=\"_blank\">HHS1e</a> и <a href=\"https://t.me/apresanteur\" target=\"_blank\">Ульяна</a> регулярно пополняют коллекцию"
       author:
