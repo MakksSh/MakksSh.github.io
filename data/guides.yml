@@ -1,3 +1,70 @@
+- category: "Бесплатные модели"
+  items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный Claude через Clewdr CLI"
+      description: "Гайд немного замороченный. Требует средств волшебной телепортации и некоторых приседаний с доставанием куки из сессии на сайте"
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://t.me/Trigger_Tourist/1098"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный Claude через Kiro code"
+      description: "Ещё один способ получить халявный Claude. Проще чем Clewdr, можно нарегать много аккаунтов, классный реверс AIClient-2-API не только для клода"
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://t.me/Trigger_Tourist/1113"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели через Blink"
+      description: "Через данный способ доступны разные модели: Claude, DeepSeek, Gemini и другие. Есть небольшие заморочки с регистрацией аккаунта"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/201"
+    - name: "Бесплатные модели от Qwen"
+      description: "Гайд по установке Qwen2API для получения всех новейших моделей Qwen в таверне. Модельки вполнее неплохие и вкусные. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1u96ZfmlaD_9ZnmCSq5pCLFVp5qOf_JBXc3eMMGh9Yh0/edit?usp=sharing"
+    - name: "Бесплатные облачные модели от Ollama"
+      description: "Небольшой гайд по получению бесплатных моделей через Ollama. Выбор небольшой, но пощупать есть что"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1pFtS21w4tAFK3hb32Hy01AlHNjJ7uM3Hkg7lzTlT0sI/edit?usp=sharing"
+    - name: "Бесплатный DeepSeek V3.2 от Nvidia"
+      description: "Гайдик от сообщества Фрэнки. Для использования потребуется иностранный номер. В 7остальном всё просто и доступно"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/168"
+    - name: "Бесплатные модели от китайцев"
+      description: "Гайдик от сообщества Фрэнки. Kimi, Qwen, DeepSeek и iFlow модельки. Для получения доступа нужен только гуглоакк"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/172"
+    - name: "Бесплатные модели от DeepSeek с официального сайта"
+      description: "Гайд по установке deepseek2api для доступа к DeepSeek моделям. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1HgoDeKBQlQkaUMSexghvg8J5UIqtzxy0Rn-6aIox2vI/edit?usp=sharing"
+    - type: "separator"
+      text: "!!!С 25-го марта 2026 года Pro модели больше недоступны без платной подписки Google!!!"
+    - type: "separator"
+      text: "Но у некоторых всё ещё продолжает работать. При использовании помните про ужесточение TOS"
+    - name: "Гайд на бесплатный Gemini"
+      description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/129"
+    - name: "Гайд на бесплатный Gemini 3"
+      description: "Дополнение к гайду выше. Переходите и активируйте доступ к Gemini 3 полностью бесплатно! Работает даже на ру аккаунтах"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/151"
+
 - category: "Видео гайды"
   items:
     - name: "<i class=\"bi bi-fire\"></i> Установка и настройка таверны"
@@ -39,36 +106,12 @@
 
 - category: "Текстовые гайды"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели от DeepSeek с официального сайта"
-      description: "Гайд по установке deepseek2api для доступа к DeepSeek моделям. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатная векторизация через Google"
+      description: "Бесплатный способ подключить модельки от Google для векторизации ваших лорбуков"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
-      link: "https://docs.google.com/document/d/1HgoDeKBQlQkaUMSexghvg8J5UIqtzxy0Rn-6aIox2vI/edit?usp=sharing"
-    - name: "<i class=\"bi bi-fire\"></i> Бесплатные модели от Qwen"
-      description: "Гайд по установке Qwen2API для получения всех новейших моделей Qwen в таверне. Модельки вполнее неплохие и вкусные. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/btwiusesillytavern"
-      link: "https://docs.google.com/document/d/1u96ZfmlaD_9ZnmCSq5pCLFVp5qOf_JBXc3eMMGh9Yh0/edit?usp=sharing"
-    - name: "<i class=\"bi bi-fire\"></i> Бесплатные облачные модели от Ollama"
-      description: "Небольшой гайд по получению бесплатных моделей через Ollama. Выбор небольшой, но пощупать есть что"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/btwiusesillytavern"
-      link: "https://docs.google.com/document/d/1pFtS21w4tAFK3hb32Hy01AlHNjJ7uM3Hkg7lzTlT0sI/edit?usp=sharing"
-    - name: "<i class=\"bi bi-fire\"></i> Бесплатный DeepSeek V3.2 от Nvidia"
-      description: "Гайдик от сообщества Фрэнки. Для использования потребуется иностранный номер. В остальном всё просто и доступно"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/168"
-    - name: "<i class=\"bi bi-fire\"></i> Бесплатные модели от китайцев"
-      description: "Гайдик от сообщества Фрэнки. Kimi, Qwen, DeepSeek и iFlow модельки. Для получения доступа нужен только гуглоакк"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/172"
+      link: "https://docs.google.com/document/d/1lYr_-tEZqVjQDYStGedxywZ9beQiNVkmu0HyvsaMo1E/edit?usp=sharing"
     - name: "Методичка новобранца в SillyTavern"
       description: "Коротко, в текстовом формате разбирается установка, настройка API, карточки персонажей и другие моменты"
       author:
@@ -147,20 +190,6 @@
         name: "Arxiv org"
         url: ""
       link: "https://arxiv.org/pdf/2601.10825"
-    - type: "separator"
-      text: "!!!С 25-го марта 2026 года Pro модели больше недоступны без платной подписки Google!!!"
-    - name: "Гайд на бесплатный Gemini"
-      description: "Хотите получить бесплатный Gemini 2.5 Pro? Вам сюда! 😎 Сообщество \"Фрэнки || ИИ и Драма\" подготовило подробнейший гайд по получению халявной гемини. Гайд не простой и не для всех, внимательно ознакомьтесь со всеми предупреждениями на канале!"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/129"
-    - name: "Гайд на бесплатный Gemini 3"
-      description: "Дополнение к гайду выше. Переходите и активируйте доступ к Gemini 3 полностью бесплатно! Работает даже на ру аккаунтах"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/151"
     - name: "Автоматическая установка geminicli2api на Windows"
       description: "Теперь и для Windows! Ставим cli для халявного гугла буквально в одну команду! Подробности и инструкция по ссыылке 👉"
       author:
@@ -188,8 +217,6 @@
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
       link: "https://t.me/btwiusesillytavern/13"
-    - type: "separator"
-      text: "!!!С 25-го марта 2026 года Pro модели больше недоступны без платной подписки Google!!!"
     - name: "Автоматическая установка geminicli2api на Android (Termux)"
       description: "Если терминал для тебя сложно, а поставить cli для юзания Gemini бесплатно хочется, то ты по адресу. Установщик geminicli2api в одну команду. Подробности и инструкция по ссыылке 👉"
       author:
