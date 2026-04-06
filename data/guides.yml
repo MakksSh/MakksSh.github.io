@@ -106,12 +106,18 @@
 
 - category: "Текстовые гайды"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатная векторизация через Google"
-      description: "Бесплатный способ подключить модельки от Google для векторизации ваших лорбуков"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i><i class=\"bi bi-fire\"></i> Хостим таверну в интернете бесплатно"
+      description: "Бесплатный способ разместить таверну в интернете. Доступ с айфона, андроида, ПК и т.д. из любой точки где есть интернет"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
-      link: "https://docs.google.com/document/d/1lYr_-tEZqVjQDYStGedxywZ9beQiNVkmu0HyvsaMo1E/edit?usp=sharing"
+      link: "https://docs.google.com/document/d/1UE3YGXqB3z2mohTl6XcBV0ISbvSfXnHFDK_1WIpI7es/edit?usp=sharing"
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Разворачиваем Omniroute на HF"
+      description: "Omniroute - это реверс для использования различных аккаунтов и сервисов. Есть Gemini (завести не удалось), Kiro для Claude и несколько других"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1VL6drIlKHK0F5iRZwH9ocjAMhgEUEaz852WpY2qeoL4/edit?usp=sharing"
     - name: "Методичка новобранца в SillyTavern"
       description: "Коротко, в текстовом формате разбирается установка, настройка API, карточки персонажей и другие моменты"
       author:
@@ -148,6 +154,12 @@
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/184?single"
+    - name: " Бесплатная векторизация через Google"
+      description: "Бесплатный способ подключить модельки от Google для векторизации ваших лорбуков"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1lYr_-tEZqVjQDYStGedxywZ9beQiNVkmu0HyvsaMo1E/edit?usp=sharing"
     - name: "Как промтить, чтобы бот НЕ ЛОМАЛСЯ (так быстро)"
       description: "Гайд посвящён техникам и методам промтинга. В нём рассматриваются способы, которые помогают нейросетям лучше «держать» характер персонажа, избегать повторов и потери контекста, а также даются рекомендации по выбору бэкенда, провайдера, модели нейросети, стилю написания карточки персонажа и использованию различных инструментов и настроек"
       author:
@@ -513,24 +525,6 @@
 
 - category: "Пресеты"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Shino Gemini 3.0"
-      description: "Пресет от Шино для Gemini 3.0"
-      author:
-        name: "Шиночка"
-        url: "https://t.me/ah_ah_shino4ka"
-      link: "https://t.me/ah_ah_shino4ka/469"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Shino Gemini 3.1"
-      description: "Обновленный пресет от Шино специально для Gemini 3.1"
-      author:
-        name: "Шиночка"
-        url: "https://t.me/ah_ah_shino4ka"
-      link: "https://t.me/ah_ah_shino4ka/755"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> СТЕПА"
-      description: "Пресет для Qwen"
-      author:
-        name: "Чай"
-        url: "https://t.me/Maxsaf1"
-      link: "https://t.me/btwiusesillytavern/75"
     - name: "Сборник пресетов от сообщества \"ИИ и Драма [18+]\""
       description: "Большая коллекция пресетов. Самые разные, под разные модели и на любой вкус. <a href=\"https://t.me/HHS1e\" target=\"_blank\">HHS1e</a> и <a href=\"https://t.me/apresanteur\" target=\"_blank\">Ульяна</a> регулярно пополняют коллекцию"
       author:
@@ -561,3 +555,21 @@
         name: "Fawn"
         url: "https://t.me/dearfawwn"
       link: "https://t.me/dearfawwn/99"
+    - name: "Shino Gemini 3.0"
+      description: "Пресет от Шино для Gemini 3.0"
+      author:
+        name: "Шиночка"
+        url: "https://t.me/ah_ah_shino4ka"
+      link: "https://t.me/ah_ah_shino4ka/469"
+    - name: "Shino Gemini 3.1"
+      description: "Обновленный пресет от Шино специально для Gemini 3.1"
+      author:
+        name: "Шиночка"
+        url: "https://t.me/ah_ah_shino4ka"
+      link: "https://t.me/ah_ah_shino4ka/755"
+    - name: "СТЕПА"
+      description: "Пресет для Qwen"
+      author:
+        name: "Чай"
+        url: "https://t.me/Maxsaf1"
+      link: "https://t.me/btwiusesillytavern/75"
