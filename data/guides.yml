@@ -1,5 +1,11 @@
 - category: "Бесплатные модели"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный DeepSeek с офф сайта (новый способ)"
+      description: "Гайд по установке ds2api для доступа к DeepSeek моделям. Поддержка мультиаккаунтинга, есть удобная админ панель"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1Nmf_Ce3dVWKE4LLKSXuxI8OgDS4vYFOYg1rbTc964LI/edit?usp=sharing"
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный Claude через Clewdr CLI"
       description: "Гайд немного замороченный. Требует средств волшебной телепортации и некоторых приседаний с доставанием куки из сессии на сайте"
       author:
