@@ -42,12 +42,6 @@
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/168"
-    - name: "Бесплатные модели от китайцев"
-      description: "Гайдик от сообщества Фрэнки. Kimi, Qwen, DeepSeek и iFlow модельки. Для получения доступа нужен только гуглоакк"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/172"
     - name: "Бесплатные модели от DeepSeek с официального сайта"
       description: "Гайд по установке deepseek2api для доступа к DeepSeek моделям. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
       author:
