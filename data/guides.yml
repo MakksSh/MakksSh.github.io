@@ -1,29 +1,17 @@
 - category: "Бесплатные модели"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Гайд на реверс с Notion"
+      description: "Opus 4.7, Gemini 3.1 pro, GPT и другие. Однако присутствует сильная цензура (по ссылке в ТГК есть готовый промпт для обхода) и маленький лимит"
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://t.me/Trigger_Tourist/1160"
     - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный DeepSeek с офф сайта (новый способ)"
-      description: "Гайд по установке ds2api для доступа к DeepSeek моделям. Поддержка мультиаккаунтинга, есть удобная админ панель"
+      description: "Гайд по установке ds2api для доступа к DeepSeek моделям. Поддержка мультиаккаунтинга, есть удобная админ панель. DeepSeek V4 в наличии"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
       link: "https://docs.google.com/document/d/1Nmf_Ce3dVWKE4LLKSXuxI8OgDS4vYFOYg1rbTc964LI/edit?usp=sharing"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный Claude через Clewdr CLI"
-      description: "Гайд немного замороченный. Требует средств волшебной телепортации и некоторых приседаний с доставанием куки из сессии на сайте"
-      author:
-        name: "Тригерный турист"
-        url: "https://t.me/Trigger_Tourist"
-      link: "https://t.me/Trigger_Tourist/1098"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатный Claude через Kiro code"
-      description: "Ещё один способ получить халявный Claude. Проще чем Clewdr, можно нарегать много аккаунтов, классный реверс AIClient-2-API не только для клода"
-      author:
-        name: "Тригерный турист"
-        url: "https://t.me/Trigger_Tourist"
-      link: "https://t.me/Trigger_Tourist/1113"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Бесплатные модели через Blink"
-      description: "Через данный способ доступны разные модели: Claude, DeepSeek, Gemini и другие. Есть небольшие заморочки с регистрацией аккаунта"
-      author:
-        name: "Фрэнки"
-        url: "https://t.me/AIandDrama"
-      link: "https://t.me/AIandDrama/201"
     - name: "Бесплатные модели от Qwen"
       description: "Гайд по установке Qwen2API для получения всех новейших моделей Qwen в таверне. Модельки вполнее неплохие и вкусные. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
       author:
@@ -42,8 +30,26 @@
         name: "Фрэнки"
         url: "https://t.me/AIandDrama"
       link: "https://t.me/AIandDrama/168"
+    - name: "Бесплатный Claude через Clewdr CLI"
+      description: "Гайд немного замороченный. Требует средств волшебной телепортации и некоторых приседаний с доставанием куки из сессии на сайте"
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://t.me/Trigger_Tourist/1098"
+    - name: "Бесплатный Claude через Kiro code"
+      description: "Ещё один способ получить халявный Claude. Проще чем Clewdr, можно нарегать много аккаунтов, классный реверс AIClient-2-API не только для клода"
+      author:
+        name: "Тригерный турист"
+        url: "https://t.me/Trigger_Tourist"
+      link: "https://t.me/Trigger_Tourist/1113"
+    - name: "Бесплатные модели через Blink"
+      description: "Через данный способ доступны разные модели: Claude, DeepSeek, Gemini и другие. Есть небольшие заморочки с регистрацией аккаунта"
+      author:
+        name: "Фрэнки"
+        url: "https://t.me/AIandDrama"
+      link: "https://t.me/AIandDrama/201"
     - name: "Бесплатные модели от DeepSeek с официального сайта"
-      description: "Гайд по установке deepseek2api для доступа к DeepSeek моделям. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
+      description: "НА ТЕКУЩИЙ МОМЕНТ НЕ РАБОТАЕТ! Гайд по установке deepseek2api для доступа к DeepSeek моделям. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
@@ -106,18 +112,12 @@
 
 - category: "Текстовые гайды"
   items:
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i><i class=\"bi bi-fire\"></i> Хостим таверну в интернете бесплатно"
+    - name: "<i class=\"bi bi-fire\"></i> Хостим таверну в интернете бесплатно"
       description: "Бесплатный способ разместить таверну в интернете. Доступ с айфона, андроида, ПК и т.д. из любой точки где есть интернет"
       author:
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
       link: "https://docs.google.com/document/d/1UE3YGXqB3z2mohTl6XcBV0ISbvSfXnHFDK_1WIpI7es/edit?usp=sharing"
-    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> Разворачиваем Omniroute на HF"
-      description: "Omniroute - это реверс для использования различных аккаунтов и сервисов. Есть Gemini (завести не удалось), Kiro для Claude и несколько других"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/btwiusesillytavern"
-      link: "https://docs.google.com/document/d/1VL6drIlKHK0F5iRZwH9ocjAMhgEUEaz852WpY2qeoL4/edit?usp=sharing"
     - name: "Методичка новобранца в SillyTavern"
       description: "Коротко, в текстовом формате разбирается установка, настройка API, карточки персонажей и другие моменты"
       author:
@@ -160,6 +160,12 @@
         name: "MaksSh"
         url: "https://t.me/btwiusesillytavern"
       link: "https://docs.google.com/document/d/1lYr_-tEZqVjQDYStGedxywZ9beQiNVkmu0HyvsaMo1E/edit?usp=sharing"
+    - name: "Разворачиваем Omniroute на HF"
+      description: "Omniroute - это реверс для использования различных аккаунтов и сервисов. Есть Gemini (завести не удалось), Kiro для Claude и несколько других"
+      author:
+        name: "MaksSh"
+        url: "https://t.me/btwiusesillytavern"
+      link: "https://docs.google.com/document/d/1VL6drIlKHK0F5iRZwH9ocjAMhgEUEaz852WpY2qeoL4/edit?usp=sharing"
     - name: "Как промтить, чтобы бот НЕ ЛОМАЛСЯ (так быстро)"
       description: "Гайд посвящён техникам и методам промтинга. В нём рассматриваются способы, которые помогают нейросетям лучше «держать» характер персонажа, избегать повторов и потери контекста, а также даются рекомендации по выбору бэкенда, провайдера, модели нейросети, стилю написания карточки персонажа и использованию различных инструментов и настроек"
       author:
@@ -525,6 +531,12 @@
 
 - category: "Пресеты"
   items:
+    - name: "<i class=\"bi bi-plus-circle-dotted\"></i> WILD TOURISTS"
+      description: "Пресет от сообщества туристов. Разные стили и авторы, инфоблоки, ассистент Селеста и другие ништяки. Gemini 3.1 Pro, GPT-5.4, Claude"
+      author:
+        name: "ᗯᏆᏞᗞ/Ꭲᗩᐯᗴᖇᑎ"
+        url: "https://t.me/t1avernbot"
+      link: "https://markizaofdark.github.io/wildtourists/"
     - name: "Сборник пресетов от сообщества \"ИИ и Драма [18+]\""
       description: "Большая коллекция пресетов. Самые разные, под разные модели и на любой вкус. <a href=\"https://t.me/HHS1e\" target=\"_blank\">HHS1e</a> и <a href=\"https://t.me/apresanteur\" target=\"_blank\">Ульяна</a> регулярно пополняют коллекцию"
       author:
