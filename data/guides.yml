@@ -48,12 +48,6 @@
         name: "Тригерный турист"
         url: "https://t.me/Trigger_Tourist"
       link: "https://t.me/Trigger_Tourist/1160"
-    - name: "Бесплатные модели от DeepSeek с официального сайта"
-      description: "НА ТЕКУЩИЙ МОМЕНТ НЕ РАБОТАЕТ! Гайд по установке deepseek2api для доступа к DeepSeek моделям. Можно штамповать аккаунты пачками, поддержка мультиаккаунтов"
-      author:
-        name: "MaksSh"
-        url: "https://t.me/btwiusesillytavern"
-      link: "https://docs.google.com/document/d/1HgoDeKBQlQkaUMSexghvg8J5UIqtzxy0Rn-6aIox2vI/edit?usp=sharing"
     - type: "separator"
       text: "!!!С 25-го марта 2026 года Pro модели больше недоступны без платной подписки Google!!!"
     - type: "separator"
