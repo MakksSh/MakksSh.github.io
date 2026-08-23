@@ -147,6 +147,329 @@ h1, h2, h3, h4, h5, h6, .display-4, .card-title {
     box-shadow: 0 0 20px rgba(13, 110, 253, 0.6);
 }
 
+#category-buttons .proxy-nav-button {
+    order: 999;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid rgba(255, 112, 70, 0.55);
+    border-radius: 50px;
+    color: #ffb08f;
+    background: rgba(255, 92, 51, 0.08);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#category-buttons .proxy-nav-button:hover,
+#category-buttons .proxy-nav-button:focus-visible {
+    color: #fff;
+    border-color: #ff7046;
+    background: rgba(255, 92, 51, 0.2);
+    box-shadow: 0 0 15px rgba(255, 92, 51, 0.28);
+    transform: translateY(-2px);
+}
+
+.proxy-page {
+    max-width: 1120px;
+}
+
+.proxy-header {
+    position: relative;
+}
+
+.proxy-back-link {
+    display: inline-block;
+    margin-bottom: 2.25rem;
+    color: var(--bs-secondary-color);
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.proxy-back-link:hover,
+.proxy-back-link:focus-visible {
+    color: var(--bs-light);
+    transform: translateX(-3px);
+}
+
+.proxy-kicker {
+    margin-bottom: 0.5rem;
+    color: #ff9d79;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.proxy-disclaimer {
+    max-width: 680px;
+    margin: 1rem auto 0;
+    color: var(--bs-secondary-color);
+    font-size: 0.88rem;
+}
+
+.proxy-info-button {
+    margin-top: 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #ccc;
+}
+
+.proxy-info-button:hover,
+.proxy-info-button:focus-visible {
+    transform: translateY(-3px);
+    border-color: #f0f6fc;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(240, 246, 252, 0.3);
+}
+
+.proxy-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    min-height: 5rem;
+    padding: 1.25rem;
+    border: 1px dashed rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    color: var(--bs-secondary-color);
+    text-align: center;
+}
+
+.proxy-state-error {
+    border-color: rgba(255, 112, 70, 0.45);
+    color: #ffb08f;
+}
+
+.proxy-section {
+    margin-bottom: 3rem;
+    padding: 1.15rem 1.25rem 1.35rem;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-left-width: 4px;
+    border-radius: 0 14px 14px 0;
+    background: rgba(15, 12, 41, 0.18);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.proxy-section-reliable {
+    border-color: rgba(95, 197, 138, 0.42);
+    border-left-color: #5fc58a;
+    background: rgba(44, 126, 85, 0.16);
+}
+
+.proxy-section-questionable {
+    border-color: rgba(226, 184, 75, 0.42);
+    border-left-color: #e2b84b;
+    background: rgba(144, 106, 24, 0.16);
+}
+
+.proxy-section-unavailable {
+    border-color: rgba(140, 149, 163, 0.38);
+    border-left-color: #8c95a3;
+    background: rgba(92, 101, 116, 0.16);
+}
+
+.proxy-section-title {
+    margin: 0 0 1rem;
+    font-size: clamp(1.25rem, 2vw, 1.7rem);
+}
+
+.proxy-section-reliable .proxy-section-title {
+    color: #8be0aa;
+}
+
+.proxy-section-questionable .proxy-section-title {
+    color: #f2d37a;
+}
+
+.proxy-section-unavailable .proxy-section-title {
+    color: #c1c8d0;
+}
+
+.proxy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 265px), 1fr));
+    gap: 1rem;
+}
+
+.proxy-card {
+    min-width: 0;
+    height: 100%;
+    padding: 1.1rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    background: rgba(33, 37, 41, 0.66);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.proxy-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.28);
+}
+
+.proxy-card-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.proxy-card-title {
+    min-width: 0;
+    margin: 0;
+    overflow-wrap: anywhere;
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.proxy-open-link {
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    line-height: 30px;
+}
+
+.proxy-fields {
+    margin: 0;
+}
+
+.proxy-field {
+    display: grid;
+    grid-template-columns: minmax(7.25rem, 42%) minmax(0, 1fr);
+    gap: 0.7rem;
+    padding: 0.55rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 0.86rem;
+}
+
+.proxy-field dt {
+    color: var(--bs-secondary-color);
+    font-weight: 500;
+}
+
+.proxy-field dd {
+    min-width: 0;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+.proxy-note {
+    margin: 0.9rem 0 0;
+    color: var(--bs-secondary-color);
+    font-size: 0.84rem;
+    line-height: 1.5;
+}
+
+.proxy-warning-open {
+    overflow: hidden;
+}
+
+.proxy-warning[hidden] {
+    display: none;
+}
+
+.proxy-warning {
+    position: fixed;
+    z-index: 2000;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding: max(0.75rem, env(safe-area-inset-top)) max(0.75rem, env(safe-area-inset-right)) max(0.75rem, env(safe-area-inset-bottom)) max(0.75rem, env(safe-area-inset-left));
+    overflow-y: auto;
+    background: rgba(5, 4, 16, 0.78);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.proxy-warning-dialog {
+    box-sizing: border-box;
+    width: min(100%, 32rem);
+    max-height: calc(100dvh - 1.5rem);
+    overflow-y: auto;
+    padding: clamp(1.5rem, 4vw, 2.25rem);
+    border: 1px solid rgba(255, 112, 70, 0.48);
+    border-left: 4px solid #d96b50;
+    border-radius: 12px;
+    background: rgba(29, 24, 39, 0.96);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.proxy-warning-mark {
+    margin-bottom: 0.85rem;
+    color: #f08a6d;
+    font-size: 1.35rem;
+}
+
+.proxy-warning-title {
+    margin: 0;
+    color: #ffe1d8;
+    font-size: clamp(1.3rem, 3vw, 1.65rem);
+}
+
+.proxy-warning-copy {
+    margin: 1rem 0 0;
+    color: #c7c1ca;
+    line-height: 1.6;
+}
+
+.proxy-warning-check {
+    display: flex;
+    align-items: flex-start;
+    min-width: 0;
+    gap: 0.7rem;
+    margin-top: 1.35rem;
+    color: #eee9ed;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    cursor: pointer;
+}
+
+.proxy-warning-check input {
+    flex: 0 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-top: 0.1rem;
+    accent-color: #d96b50;
+}
+
+.proxy-warning-check span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.proxy-warning-continue {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-top: 1.1rem;
+    border: 1px solid rgba(255, 112, 70, 0.55);
+    color: #ffe1d8;
+    background: rgba(217, 107, 80, 0.16);
+}
+
+.proxy-warning-continue:not(:disabled):hover,
+.proxy-warning-continue:not(:disabled):focus-visible {
+    border-color: #f08a6d;
+    color: #fff;
+    background: rgba(217, 107, 80, 0.28);
+    box-shadow: 0 0 18px rgba(217, 107, 80, 0.2);
+}
+
+.proxy-warning-continue:disabled {
+    border-color: rgba(255, 255, 255, 0.14);
+    color: rgba(255, 255, 255, 0.38);
+    background: rgba(255, 255, 255, 0.05);
+}
+
 .btn-action-icon {
     width: 32px;
     height: 32px;
@@ -301,6 +624,63 @@ footer .btn:hover {
     #category-buttons .btn {
         padding: 0.4rem 0.8rem;
         font-size: 0.85rem;
+    }
+
+    #category-buttons .proxy-nav-button {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
+
+    .proxy-page {
+        margin-top: 1.25rem !important;
+    }
+
+    .proxy-header {
+        margin-bottom: 2.5rem !important;
+    }
+
+    .proxy-back-link {
+        margin-bottom: 1.75rem;
+    }
+
+    .proxy-section {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding: 1rem 0.85rem;
+    }
+
+    .proxy-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .proxy-field {
+        grid-template-columns: minmax(6.5rem, 38%) minmax(0, 1fr);
+        gap: 0.5rem;
+    }
+
+    .proxy-warning-dialog {
+        padding: 1.15rem;
+        border-left-width: 3px;
+        border-radius: 10px;
+    }
+
+    .proxy-warning-mark {
+        margin-bottom: 0.55rem;
+    }
+
+    .proxy-warning-copy {
+        margin-top: 0.7rem;
+        line-height: 1.45;
+    }
+
+    .proxy-warning-check {
+        gap: 0.55rem;
+        margin-top: 1rem;
+        font-size: 0.86rem;
+    }
+
+    .proxy-warning-continue {
+        margin-top: 0.85rem;
     }
 
     /* Responsive Table Styles */
